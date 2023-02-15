@@ -1,0 +1,59 @@
+.found {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.found img.icon {
+  width: 200px;
+  margin: 20px 0;
+}
+.weather-data{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.weather-data p.weather-desc {
+  font-size: 20px;
+  font-weight: bold;
+  background-color: rgb(225, 238, 243);
+  padding: 2px;
+}
+.temp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+}
+img.temp-img {
+  width: 40px;
+}
+.misc {
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 15px;
+}
+.wind, .humidity {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.wind div, .humidity div {
+  display: flex;
+  gap: 8px;
+}
+.misc p{
+  font-weight: bold;
+  font-size: 30px;
+}
+.misc p span {
+  font-size: 20px;
+}
+.misc span {
+  font-weight: bold;
+}
+.wind div span.km {
+  font-size: 15px;
+}

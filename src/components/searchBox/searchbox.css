@@ -1,0 +1,32 @@
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+form input {
+  font-size: 20px;
+  border: none;
+  padding: 6px;
+  border-radius: 8px;
+  width: 200px;
+  font-weight: 600;
+}
+form .location {
+  font-size: 30px;
+}
+form .search {
+  font-size: 30px;
+  font-weight: bold;
+}
+form button{
+  background-color: #ddf4ff;
+  border: none;
+  border-radius: 50px;
+  padding: 2px;
+  width: 37px;
+}
+form button:hover {
+  cursor: pointer;
+  background-color: #ceefff;
+}
